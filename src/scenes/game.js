@@ -1,4 +1,4 @@
-class game extends Phaser.Scene {
+export default class game extends Phaser.Scene {
     constructor() {
         super('game');
         this.bounceCount = 0;
@@ -132,4 +132,3 @@ class game extends Phaser.Scene {
         this.scoreText.setText('Score: ' + this.score);
       }
     }
-export default game;
